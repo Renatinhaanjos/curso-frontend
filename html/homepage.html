@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Renata Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #4682B4;
+			  padding: 10px;
+			  text-align: center;
+			  font-size: 25px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 25%;
+			   
+			  background: #C7E0F4;
+			  padding: 15px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 75%;
+			  background-color: #F0F3F5;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #4682B4;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso WordPress: Desenvolvimento Web</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3 style="color:MidnightBlue;">Aulas</h3>
+				<ul>
+
+					
+					<li><a href="01-introducao.html" style="text-decoration:none;">Introdução</a></li>
+					<li><a href="02-listas-e-links.html"style="text-decoration:none;">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html"style="text-decoration:none;">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html"style="text-decoration:none;">Tabelas</a></li>
+					<li><a href="05-layouts.html"style="text-decoration:none;">Layouts</a></li>
+					<li><a href="06-formularios.html"style="text-decoration:none;">Formulários</a></li>
+
+					 
+					
+				</ul>
+
+				<h3 style="color:MidnightBlue;">Redes Sociais</h3>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/renata-dos-anjos-6b5a9a221/"style="text-decoration:none;">LinkedIn</li>
+					<li><a href="https://www.instagram.com/renatinhaa_anjos"style="text-decoration:none;"/>@renatinhaa_anjos</li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<img width="200" src="https://media.licdn.com/dms/image/D4D03AQEV9vGBciYTMA/profile-displayphoto-shrink_200_200/0/1676821655453?e=1701302400&v=beta&t=PYg0YT8kciRHgjxSaYoLcwOJ3A0dTLEqxTVBSjqT8_0" height="200" alt="Renata dos Anjos">
+				
+				
+				<h2 style="color:MidnightBlue;">Renata Anjos</h2>
+
+				<p style="color:MidnightBlue;">Tecnólogo em Lógistica na <strong>FNC</strong> </p>
+				<p style="color:MidnightBlue;">Cursando Ensino Superior de Análise e Desenvolvimento de Sistemas na <strong>UNIP</strong> </p>
+				<p style="color:MidnightBlue;">Cursando o Curso WordPress: Desenvolvimento Web na <strong>EBAC</strong> </p>
+
+
+				<h3 style="color:MidnightBlue;">Sobre</h3>
+
+				<p style="color:MidnightBlue;">Minha primeira faculdade foi de Tecnólogo em Logística, com o passar dos anos vi que a minha paixão sempre foi na área de Tecnologia da Informação, mais não sabia qual área seguir.
+				Depois de várias pesquisas vi que a área de programação era a área no qual eu queria seguir de verdade. Foi um grande desafio mudar de área, e está sendo a cada dia.</p>	
+
+				<p style="color:MidnightBlue;">Outro desafio foi descobrir qual área da programação me especializar, e o que me identifiquei foi com Front-end, e ao fazer o curso na EBAC está sendo sensacional cada módulo que vou fazendo, onde realmente estou conseguindo entender e evoluir cada vez mais e mais.</p>
+				
+				<p style="color:MidnightBlue;">Sei que requer um grande esforço e determinação, é o que venho fazendo para poder atingir o meu objetivo.</p>
+						
+				 
+				
+
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Renata</p>
+		</footer>
+		
+	</body>
+</html>

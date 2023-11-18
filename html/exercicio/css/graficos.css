@@ -1,0 +1,43 @@
+div {  
+    margin: 40px auto;
+}
+
+
+/* Cria um Círculo*/
+#grafico-01 {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#grafico-01 img {
+    width: 95%;
+    height: auto;
+   
+}
+
+
+
+
+#imagem-vetorial {
+    width: 100px;
+    
+}
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
+
+.filtro {
+    filter: grayscale(0%);
+    
+}
+
+.filtro:hover {
+filter: grayscale(100%);
+
+
+}
